@@ -6,11 +6,9 @@ body {
   color: #333;
 }
 
-header {
+nav {
   background-color: #0073e6;
   color: white;
-  padding: 16px;
-  text-align: center;
 }
 
 footer {
@@ -21,9 +19,4 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-main {
-  padding: 32px;
-  text-align: center;
 }
