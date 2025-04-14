@@ -11,7 +11,10 @@ footer {
   color: white;
   text-align: center;
   padding: 8px;
-  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+img {
+  border-radius: 25px;
 }
