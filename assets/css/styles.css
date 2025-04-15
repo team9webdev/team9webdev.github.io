@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'SUSE', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  height: 100vh;
 }
 
 footer {
@@ -11,7 +14,6 @@ footer {
   color: white;
   text-align: center;
   padding: 8px;
-  bottom: 0;
   width: 100%;
 }
 
