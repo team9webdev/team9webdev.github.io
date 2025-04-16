@@ -1,17 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@400&display=swap');
+
+/*Variables*/
+:root {
+	/*OLD Colours*/
+	--primary: #0061a6;
+	--onPrimary: #ffffff;
+	--primaryContainer: #d2e4ff;
+	--onPrimaryContainer: #001c37;
+	--secondary: #535f70;
+	--onSecondary: #ffffff;
+	--secondaryContainer: #d7e3f8;
+	--onSecondaryContainer: #101c2b;
+	--tertiary: #6c5778;
+	--onTertiary: #ffffff;
+	--tertiaryContainer: #f3daff;
+	--onTertiaryContainer: #251431;
+	--background: #fdfcff;
+	--onBackground: #1a1c1e;
+	--surface: #fdfcff;
+	--onSurface: #1a1c1e;
+	--outline: #73777f;
+	--surfaceVarient: #dfe2eb;
+	--onSurfaceVarient: #43474e;
+
+	/*Fonts*/
+	--fontPrimary: 'SUSE', sans-serif;
+}
 
 body {
-  font-family: 'SUSE', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-  height: 100vh;
+  font-family: var(--fontPrimary);
+  background-color: var(--background);
+  color: var(--onPrimaryContainer);
+}
+
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  color: var(--primary);
+}
+
+.navbar {
+  background-color: var(--onSurfaceVarient) !important;
+}
+
+.card {
+  background-color: var(--primaryContainer);
+  border: none;
+}
+
+.card .card-img-top {
+  border-radius: 25px;
+}
+
+.card-title {
+  color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--onPrimary);
+  border-radius: 25px;
+}
+
+/*
+	Corner radius' for section containers,
+	depending whether they are by themselves,
+	are at the top, middle, or bottom.
+*/
+.joinTop {
+	border-radius: 25px 25px 6px 6px !important;
+	margin-bottom: 3px !important;
+}
+
+.joinMiddle {
+	border-radius: 6px !important;
+	margin-bottom: 3px !important;
+}
+
+.joinBottom {
+	border-radius: 6px 6px 25px 25px !important;
+}
+
+.full {
+	border-radius: 25px;
+}
+
+.text-white {
+  color: var(--onPrimary) !important;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: var(--primary);
+  color: var(--onPrimary);
   text-align: center;
   padding: 8px;
   width: 100%;
