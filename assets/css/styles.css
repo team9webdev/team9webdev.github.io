@@ -54,6 +54,12 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
   color: var(--primary);
 }
 
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--onPrimary);
+  border-radius: 25px;
+}
+
 /*
 	Corner radius' for section containers,
 	depending whether they are by themselves,
