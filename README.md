@@ -1,12 +1,12 @@
-CS11001 – Front End Web Development
-Coursework Assignment 1 – Case Study Website
+## CS11001 – Front End Web Development
+## Coursework Assignment 1 – Case Study Website
 
-Team 9
+## Team 9
 
-Team Members
+# Team Members
 Aaron Jefferson
 Oleksii Popov
 Sasha Korol
 Jakub Sobieraj
 
-This is team 9's Front End Web Development project on the Flannan Isles Lighthouse.
+## This is team 9's Front End Web Development project on the Flannan Isles Lighthouse.
