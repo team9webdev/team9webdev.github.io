@@ -33,42 +33,52 @@
 	--fontPrimary: 'SUSE', sans-serif;
 }
 
+/*Sets the font, background colour, and text colour for the whole site*/
 body {
   font-family: var(--fontPrimary);
   background-color: var(--background);
   color: var(--onPrimaryContainer);
 }
 
-main h1, main h2, main h3, main h4, main h5, main h6 {
+/*Sets all titles inside main element to be the primary colour*/
+main h1, main h2, main h3, main h4, main h5, main h6, .card-title {
   color: var(--primary);
 }
 
+/*Sets navbar colour to primary, and text colour to onPrimary*/
 .navbar {
   background-color: var(--primary) !important;
   color: var(--onPrimary) !important;
 }
 
+/*Card styles*/
+	/*Sets card background colour to primaryContainer and removes border*/
 .card {
   background-color: var(--primaryContainer);
   border: none;
 }
 
+	/*Sets border radius to 25px*/
 .card .card-img-top {
   border-radius: 25px;
 }
 
-.card-title {
-  color: var(--primary);
-}
-
+/*Sets btn-primary to be primary colour, font colour to onPrimary, border radius to 25px, and border to 0px*/
 .btn-primary {
   background-color: var(--primary);
   color: var(--onPrimary);
   border-radius: 25px;
+  border: 0px;
+}
+
+/*Sets hover colour to tertiary and onTertiary*/
+.btn-primary:hover {
+	background-color: var(--tertiary);
+	color: var(--onTertiary);
 }
 
 /*
-	Corner radius' for section containers,
+	Corner radius' for section containers or cards,
 	depending whether they are by themselves,
 	are at the top, middle, or bottom.
 */
@@ -94,6 +104,10 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
   color: var(--onPrimary) !important;
 }
 
+/*
+* Sets footer colour to primary and text colour to onPrimary,
+* text align to be center, padding to be 8px, and width to be full width of screen.
+*/
 footer {
   background-color: var(--primary);
   color: var(--onPrimary);
@@ -102,6 +116,7 @@ footer {
   width: 100%;
 }
 
+/*Sets all images to have border radius of 25px.*/
 img {
   border-radius: 25px;
 }
