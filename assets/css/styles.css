@@ -2,26 +2,32 @@
 
 /*Variables*/
 :root {
-	/*OLD Colours*/
-	--primary: #0061a6;
-	--onPrimary: #ffffff;
-	--primaryContainer: #d2e4ff;
-	--onPrimaryContainer: #001c37;
-	--secondary: #535f70;
-	--onSecondary: #ffffff;
-	--secondaryContainer: #d7e3f8;
-	--onSecondaryContainer: #101c2b;
-	--tertiary: #6c5778;
-	--onTertiary: #ffffff;
-	--tertiaryContainer: #f3daff;
-	--onTertiaryContainer: #251431;
-	--background: #fdfcff;
-	--onBackground: #1a1c1e;
-	--surface: #fdfcff;
-	--onSurface: #1a1c1e;
-	--outline: #73777f;
-	--surfaceVarient: #dfe2eb;
-	--onSurfaceVarient: #43474e;
+
+	/* Colors*/
+	--primary: #406E8E;
+	--onPrimary: #FFFFFF;
+	--primaryContainer: #d6e0eb;
+	--onPrimaryContainer: #161925;
+
+	--secondary: #23395B;
+	--onSecondary: #FFFFFF;
+	--secondaryContainer: #406E8E;
+	--onSecondaryContainer: #FFFFFF;
+
+	--tertiary: #8EA8C3;
+	--onTertiary: #161925;
+	--tertiaryContainer: #FFFFFF;
+	--onTertiaryContainer: #23395B;
+
+	--background: #FFFFFF;
+	--onBackground: #161925;
+
+	--surface: #FFFFFF;
+	--onSurface: #161925;
+
+	--outline: #23395B;
+	--surfaceVarient: #406E8E;
+	--onSurfaceVarient: #FFFFFF;
 
 	/*Fonts*/
 	--fontPrimary: 'SUSE', sans-serif;
@@ -38,7 +44,8 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 }
 
 .navbar {
-  background-color: var(--onSurfaceVarient) !important;
+  background-color: var(--primary) !important;
+  color: var(--onPrimary) !important;
 }
 
 .card {
