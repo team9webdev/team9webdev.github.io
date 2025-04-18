@@ -4,34 +4,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Flannan Isles Lighthouse</title>
+        <!--Links Bootstrap libraries-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--Links custom CSS file-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="icon" type="image/svg+xml" href="assets/pics/icon.svg">
     </head>
     <body>
         <header>
+            <!--Top navigation bar, which adapts to different screen sizes-->
             <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         Flannan Isles Lighthouse
                     </a>
+                    <!--Dropdown navigation toggle icon for mobile devices/smaller screens-->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!--Nav link to Home page-->
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
+                            <!--Nav link to History page-->
                             <li class="nav-item">
                                 <a class="nav-link" href="history.html">History</a>
                             </li>
+                            <!--Nav link to 1900 Crew Disappearance page-->
                             <li class="nav-item">
                                 <a class="nav-link" href="disappearance.html">1900 Crew Disappearance</a>
                             </li>
+                            <!--Nav link to Theories page-->
                             <li class="nav-item">
                                 <a class="nav-link" href="theories.html">Theories</a>
                             </li>
+                            <!--Nav link to Art and Culture page-->
                             <li class="nav-item">
                                 <a class="nav-link" href="art-culture.html">Art and Culture</a>
                             </li>
@@ -39,7 +48,9 @@
                     </div>
                 </div>
             </nav>
-
+            
+            <!--Hero header image, of Flannan Isles Lighthouse-->
+                <!--Style inside div sets the header image, and its positioning, as well as the darker tint and text positioning.-->
             <div
             id="header-image"
             class="p-4 text-center bg-image"
@@ -69,19 +80,23 @@
                         position: relative;
                         z-index: 2;
                     ">
+                <!--Welcome text on top of hero header image-->
                 <h3 class="lead" id="header-welcome">Welcome to</h3>
                 <h1 class="display-3" id="header-title">The Flannan Isles Lighthouse</h1>
             </div>
         </div>
         </header>
-        <main class="container mt-4">
+        <main class="container mt-4 mb-5">
+            <!--Top welcome text - is at top of every page for consistency.-->
             <h1 class="mb-0"><b>Welcome to the website of the Flannan Isles Lighthouse,</b></h1>
             <h1>the internet home of this historic lighthouse.</h1>
+            <!--Table containing 4 cards with buttons, which go to the different pages of the website.-->
             <div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <div class="col mb-3">
+                        <!--Card containing link to History page, image, and text-->
                         <div class="card full">
-                            <img src="assets/pics/lighthouse1.jpg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
+                            <img src="assets/pics/lighthouse4.jpeg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
                             <div class="card-body">
                                 <h2 class="card-title">Lighthouse History</h2>
                                 <p class="card-text">Learn about our lighthouse's facinating history and heritage here.</p>
@@ -90,8 +105,9 @@
                         </div>
                     </div>
                     <div class="col mb-3">
+                        <!--Card containing link to 1900 Crew Disappearance page, image, and text-->
                         <div class="card full">
-                            <img src="assets/pics/lighthouse1.jpg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
+                            <img src="assets/pics/lighthouse2.jpeg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
                             <div class="card-body">
                                 <h2 class="card-title">1900 Crew Disappearance</h2>
                                 <p class="card-text">Learn about the story of the lighthouse's crew mysteriously disappearing in 1900.</p>
@@ -100,8 +116,9 @@
                         </div>
                     </div>
                     <div class="col mb-3">
-                        <div class="card full">
-                            <img src="assets/pics/lighthouse1.jpg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
+                        <!--Card containing link to Theories page, image, and text-->
+                        <div class="card full">                            
+                            <img src="assets/pics/lighthouse3.jpg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
                             <div class="card-body">
                                 <h2 class="card-title">Lighthouse Theories</h2>
                                 <p class="card-text">Learn about the lighthouse's theories here.</p>
@@ -110,6 +127,7 @@
                         </div>
                     </div>
                     <div class="col mb-3">
+                        <!--Card containing link to Art and Culture page, image, and text-->
                         <div class="card full">
                             <img src="assets/pics/lighthouse1.jpg" class="card-img-top" alt="An image of the Flannan Isles Lighthouse.">
                             <div class="card-body">
@@ -122,9 +140,11 @@
                 </div>
             </div>
         </main>
+        <!--Fixed position footer-->
         <footer class="navbar-fixed-bottom">
             <p>Team 9, Flannan Isles Lighthouse Project</p>
         </footer>
+        <!--Link to Bootstrap javascript-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
